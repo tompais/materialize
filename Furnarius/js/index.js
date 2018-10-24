@@ -1,0 +1,15 @@
+$(document).ready(function () {
+    $('.carousel').carousel({
+        duration: 200,
+        dist: 0,
+        fullWidth: false,
+        indicators: false,
+        shift: 10,
+        padding: 10,
+        numVisible: 5,
+    });
+});
+
+setInterval(function() {
+    $('.carousel').carousel('next');
+  }, 4500);
