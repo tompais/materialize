@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="lib/jquery-ui-1.12.1/jquery-ui.min.css" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="css/materialize/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="css/index.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/footer.css" crossorigin="anonymous">
+
     <title>Furnarius</title>
 </head>
 
@@ -186,25 +188,34 @@
 
     <!--Igna-->
 
-    <footer class="page-footer grey black-text">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
-                        content.</p>
+    <footer class="page-footer brown lighten-2">
+            <div class="row contenedorFooter">
+                <div class="col s3">
+                    Informacion sobre nosotros
                 </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                    </ul>
+                <div class="col s3">
+                    Informacion de contacto
                 </div>
+                <form class="col s6 center-align">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Nombre</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="textarea1" class="materialize-textarea"></textarea>
+                          <label for="textarea1">Deje su mensaje</label>
+                        </div>
+                    </div>
+                </form>
             </div>
-        </div>
+        
         <div class="footer-copyright">
             <div class="container">
                 © 2018 Copyright Text

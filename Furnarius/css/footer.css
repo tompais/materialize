@@ -1,0 +1,13 @@
+.contenedorFooter{
+    margin: 0px auto;
+    color: #212121;
+    font-size: 22px;
+    padding: 0px 30px;
+}
+.contenedorFooter label{
+    color: #212121;
+    font-size: 22px;
+}
+.contenedorFooter form input{
+    border: none;
+}
