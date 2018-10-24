@@ -4,7 +4,7 @@ $(document).ready(function () {
         dist: 0,
         fullWidth: false,
         indicators: false,
-        shift: 10,
+        shift: 0,
         padding: 10,
         numVisible: 5,
     });
