@@ -5,3 +5,14 @@
 .container {
     width: 90%;
 }
+
+.carousel-row-container {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 500px;
+}
+
+.brand-logo {
+    margin-left: 15px;
+}
