@@ -4,4 +4,8 @@
 
 .container {
     width: 90%;
+
+
+*::placeholder{
+    color: #212121;
 }
