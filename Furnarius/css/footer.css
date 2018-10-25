@@ -11,18 +11,32 @@
 .contenedorFooter form{
     padding: 0px;
 }
-@media (min-width:500px){
+@media (min-width:999px){
     .fila{
         display: flex;
     }
+    .item-contacto{
+        display: flex;
+        align-items: center;
+    }
 }
-@media (max-width:500px){
+@media (max-width:1000px){
     .ultimaCol{
         margin-top: 30px;
     }
     .input{
         margin-top: 15px;
     }
+    .contenedorFooter{
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .redes-sociales{
+        text-align: center;
+        width: 50%;
+        margin: 0px auto;
+    }
+    
 }
 
 
@@ -63,10 +77,7 @@ input[type=email]:not(.browser-default), textarea.materialize-textarea
 .titulo-datos{
     margin-bottom: 20px;
 }
-.item-contacto{
-    display: flex;
-    align-items: center;
-}
+
 .red-social{
     fill: #a1887f;
     border-radius: 7px;
@@ -74,7 +85,6 @@ input[type=email]:not(.browser-default), textarea.materialize-textarea
 .redes-sociales{
     display: flex;
     justify-content: space-around;
-    width: 170px;
-    margin-top: 15px;
-    margin-left: 20px;
+    width: 90%;
+    margin-top: 20px;
 }
