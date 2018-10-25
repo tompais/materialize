@@ -4,9 +4,10 @@
 
 .container {
     width: 90%;
+}
 
 
-*::placeholder{
+placeholder{
     color: #212121;
 }
 
@@ -19,4 +20,9 @@
 
 .brand-logo {
     margin-left: 15px;
+}
+
+.brand-logo img {
+    height: 50px;
+    width: 50px;
 }
