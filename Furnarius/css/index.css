@@ -1,11 +1,29 @@
+
 * {
     font-family: 'Domine', serif;
 }
 
 .container {
     width: 90%;
+}
 
 
-*::placeholder{
+::placeholder{
     color: #212121;
+}
+
+.carousel-row-container {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 500px;
+}
+
+.brand-logo {
+    margin-left: 15px;
+}
+
+.brand-logo img {
+    height: 50px;
+    width: 50px;
 }
