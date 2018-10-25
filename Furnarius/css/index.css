@@ -20,10 +20,16 @@
 }
 
 .brand-logo {
-    margin-left: 15px;
+    margin-left: 1%;
 }
 
 .brand-logo img {
     height: 50px;
     width: 50px;
+}
+
+@media (max-width:1000px){
+    .furnarius {
+        font-size: 40px;
+    }
 }

@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    setCarousel();
+});
+
+function setCarousel() {
     $('.carousel').carousel({
         duration: 200,
         dist: 0,
@@ -8,8 +12,12 @@ $(document).ready(function () {
         padding: 10,
         numVisible: 5,
     });
+}
+
+$(window).resize(function () {
+    setCarousel();
 });
 
-setInterval(function() {
+setInterval(function () {
     $('.carousel').carousel('next');
-  }, 4500);
+}, 4500);
