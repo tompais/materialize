@@ -188,30 +188,50 @@
 
     <!--Igna-->
 
-    <footer class="page-footer brown lighten-2">
+    <footer class="page-footer brown darken-2">
             <div class="row contenedorFooter">
-                <div class="col s3">
-                    Informacion sobre nosotros
+                <div class="col l3 s12">
+                    <div class="titulo-datos">Informacion sobre nosotros</div>
+                    <div class=""></div> 
                 </div>
-                <div class="col s3">
-                    Informacion de contacto
-                </div>
-                <form class="col s6 center-align">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input id="first_name" type="text" class="validate">
-                            <label for="first_name">Nombre</label>
+                <div class="col l3 s12">
+                    <div class="titulo-datos">Informacion de contacto</div>
+                    <div class="datos-contacto">
+                        <div class="item-contacto"><i class="material-icons prefix">contact_phone</i>4666-6666 </div>
+                        <div class="item-contacto"><i class="material-icons prefix">place</i>calle falsa 123 </div>
+                        <div class="item-contacto"><i class="material-icons prefix">contact_mail</i>correo@hotmail.com </div>
+                    </div>
+                    <div class="redes-sociales">
+                        <div>
+                            <img src="imagenes/facebook.svg" class="red-social" alt="" width="20px" height="20px">
                         </div>
-                        <div class="input-field col s6">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
+                        <div>
+                            <img src="imagenes/twitter.svg" class="red-social" alt="" width="20px" height="20px">
+                        </div>
+                        <div>
+                            <img src="imagenes/instagram.svg" class="red-social" alt="" width="20px" height="20px">
+                        </div>
+                        
+                    </div>     
+                </div>
+                <form class="col s12 l6 ultimaCol center-align">
+                    <div class="row fila">
+                        <div class="input brown lighten-1 col s12 l6">
+                            <label for="first_name"><i class="material-icons prefix">account_circle</i></label>
+                            <input id="first_name" type="text" placeholder="Nombre" class="">
+                        </div>
+                        <div class="input brown lighten-1 col s12 l6">
+                            <label for="email"><i class="material-icons prefix">email</i></label>
+                            <input id="email" type="email" placeholder="Email" class="">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="input-field col s12">
-                          <textarea id="textarea1" class="materialize-textarea"></textarea>
-                          <label for="textarea1">Deje su mensaje</label>
+                        <div class="input brown lighten-1">
+                          <textarea id="textarea1" placeholder="Deje su mensaje" class="materialize-textarea"></textarea>
                         </div>
+                    </div>
+                    <div class="row boton">
+                            <a class="waves-effect waves-light brown lighten-1 btn"><i class="material-icons left">send</i>Enviar</a>
                     </div>
                 </form>
             </div>
