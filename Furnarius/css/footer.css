@@ -19,6 +19,7 @@
         display: flex;
         align-items: center;
     }
+    
 }
 @media (max-width:1000px){
     .ultimaCol{
@@ -35,6 +36,9 @@
         text-align: center;
         width: 50%;
         margin: 0px auto;
+    }
+    .text-area{
+        width: 100%;
     }
     
 }
