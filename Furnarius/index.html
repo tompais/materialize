@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="fonts/domine.css" rel="stylesheet" />
-    <link href="fonts/material-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="lib/jquery-ui-1.12.1/jquery-ui.min.css" />
-    <link type="text/css" rel="stylesheet" href="css/materialize/materialize.min.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="lib/jquery-ui-1.12.1/jquery-ui.min.css" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/materialize/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/index.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/footer.css" crossorigin="anonymous">
 
     <title>Furnarius</title>
 
@@ -36,15 +36,14 @@
     </ul>
     <nav class="nav-extended">
         <div class="nav-wrapper brown darken-2">
-            <a href="index.html" class="brand-logo left"><img src="imagenes/Logo.svg"></a>
+            <a href="#" class="brand-logo left"><img src="imagenes/Logo.svg"></a>
             <ul id="nav-mobile" class="right">
                 <li><a class="dropdown-trigger" href="#!" data-target="dropdownjuego">Seleccione un Juego<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li class="hide-on-med-only hide-on-small-only"><a href="#">Sinopsis</a></li>
-                <li class="hide-on-med-only hide-on-small-only"><a href="#">Componentes</a></li>
-                <li class="hide-on-med-only hide-on-small-only"><a href="#">Personajes</a></li>
-                <li class="hide-on-med-only hide-on-small-only"><a href="#">Contacto</a></li>
+                <li class="hide-on-med-only"><a href="#">Sinopsis</a></li>
+                <li class="hide-on-med-only"><a href="#">Componentes</a></li>
+                <li class="hide-on-med-only"><a href="#">Personajes</a></li>
+                <li class="hide-on-med-only"><a href="#">Contacto</a></li>
             </ul>
-        </div>
     </nav>
     <div class="container">
         <div class="section transparent">
@@ -259,13 +258,18 @@
         </div>
     </footer>
 
-    <script src="lib/jquery-3.3.1/jquery-3.3.1.min.js"></script>
-    <script src="lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
-    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/jquery-3.3.1/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="lib/jquery-ui-1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+    <script src="lib/popper/popper.min.js" crossorigin="anonymous"></script>
     <!-- <script src="lib/bootstrap/bootstrap.min.js"></script> -->
-    <script src="lib/tooltip/tooltip.min.js"></script>
-    <script type="text/javascript" src="js/materialize/materialize.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="lib/tooltip/tooltip.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/materialize/materialize.min.js" crossorigin="anonymous"></script>
+    <script src="js/index.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-trigger').dropdown();
+        });
+    </script>
 </body>
 
 </html>
