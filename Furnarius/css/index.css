@@ -20,12 +20,14 @@
 }
 
 .brand-logo {
+    height: 100%;
     margin-left: 1%;
 }
 
 .brand-logo img {
-    height: 50px;
-    width: 50px;
+    margin-top: 10%;
+    height: 80%;
+    width: 60px;
 }
 
 @media (max-width:1000px){
