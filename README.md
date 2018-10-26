@@ -14,3 +14,4 @@ tipografia original en el titulo
 tipografia moderna en general
 sombras mas marcadas
 emparejar tono de color en todo
+navbar en fixed o agregar un botron flotante para volver al comienzo
