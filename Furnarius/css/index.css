@@ -1,8 +1,7 @@
 
 * {
-    font-family: 'Domine', serif;
+    font-family: 'Rubik', sans-serif;
 }
-
 .container {
     width: 90%;
 }
@@ -12,11 +11,13 @@
     color: #212121;
 }
 
+.carousel {
+    height: 700px;
+}
+
 .carousel-row-container {
     display: flex;
     justify-content: center;
-    width: 75%;
-    height: 500px;
 }
 
 .brand-logo {
@@ -33,6 +34,7 @@
 .imagencard {
   width: 100px;
   height: 400px;
+  margin-top: 10px;
 }
 
 .texto li{
