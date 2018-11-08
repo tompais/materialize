@@ -236,8 +236,8 @@
             <input id="first_name" type="text" required placeholder="Nombre" class="">
           </div>
           <div class="input brown lighten-5 col s12 l6">
-            <label for="email"><i class="material-icons prefix">email</i></label>
-            <input id="email" type="email" placeholder="Email" required class="">
+            <label for="email-msj"><i class="material-icons prefix">email</i></label>
+            <input id="email-msj" type="email" placeholder="Email" required class="">
           </div>
         </div>
         <div class="row">
@@ -245,8 +245,13 @@
             <textarea id="textarea1" placeholder="Deje su mensaje"  required class="materialize-textarea"></textarea>
           </div>
         </div>
+        <div id="advertencia" style="display:none">Debe ingresar todos los campos para poder enviar!</div>
+        <div id="advertenciaEmail" style="display:none">Debe ingresar un email válido!</div>
+        <div id="correcto" style="display:none">Mensaje enviado correctamente</div>
+        <br>
+
         <div class="row boton">
-          <a class="waves-effect waves-light brown lighten-5 btn"><i class="material-icons left">send</i>Enviar</a>
+          <a class="waves-effect waves-light brown lighten-5 btn" type="submit" id="enviar"><i class="material-icons left">send</i>Enviar</a>
         </div>
       </form>
     </div>

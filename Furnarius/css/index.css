@@ -21,6 +21,14 @@
     z-index: 999;
     color: #6d4c41;
 }
+#advertencia,#advertenciaEmail{
+    border: #d32f2f solid 2px;
+    background-color: #e53935;
+}
+#correcto{
+    border: #1b5e20 solid 2px;
+    background-color: #43a047;
+}
 .carousel-row-container {
     display: flex;
     justify-content: center;

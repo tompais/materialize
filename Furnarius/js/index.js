@@ -1,15 +1,41 @@
+var mensaje = $("#textarea1");
+var email = $("#email-msj");
+var nombre = $("#first_name");
+var regexEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 $(document).ready(function () {
     $('.dropdown-trigger').dropdown();
     $('.parallax').parallax();
-});
-
-$(document).ready(function () {
     setCarousel();
+    $('.modal').modal();
+
+    $("#enviar").click(function(){
+        if(mensaje.val() == "" ||
+        email.val() == "" ||
+        nombre == ""){
+            $("#advertencia").css("display","block");
+            exit();
+        }
+        if(mensaje.val() != "" &&
+        email.val() != "" &&
+        nombre.val() != ""){
+            $("#advertencia").css("display","none");
+        }
+        if(email.val() != "" && !regexEmail.test(email.val())){
+            $("#advertenciaEmail").css("display","block");
+            exit();
+        }
+        else{
+            $("#advertenciaEmail").css("display","none");
+        }
+        $("#correcto").css("display","block");
+        setTimeout(function(){$("#correcto").css("display","none")},5000);
+    });
+
+
+
+
 });
 
-$(document).ready(function(){
-    $('.modal').modal();
-  });
 
 function setCarousel() {
     $('.carousel').carousel({
