@@ -6,6 +6,10 @@ $(document).ready(function () {
     setCarousel();
 });
 
+$(document).ready(function(){
+    $('.modal').modal();
+  });
+
 function setCarousel() {
     $('.carousel').carousel({
         duration: 200,
