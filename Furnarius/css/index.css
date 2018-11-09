@@ -8,6 +8,11 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
     width: 90%;
 }
 
@@ -20,13 +25,18 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.iso img {
+    width: 50%;
 }
 
 .carousel {
     height: 700px;
 }
+
 #shopCart{
     display: flex;
     flex-direction: column;
@@ -36,6 +46,8 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
     z-index: 999;
     color: #6d4c41;
     margin-right: 20px;
+    margin-bottom: 20px;
+
 }
 
 #shopCart a {
@@ -119,5 +131,9 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 @media (max-width:1000px){
     .furnarius {
         font-size: 40px;
+    }
+
+    .carousel {
+        height: 500px;
     }
 }
