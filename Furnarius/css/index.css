@@ -116,10 +116,12 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
     height: 80%;
     width: 60px;
 }
-
+#logo{
+    margin-left: 8px;
+}
 .imagencard {
-  width: 100px;
-  height: 500px;
+  width: 50px;
+  height: 300px;
   margin-top: 10px;
 }
 
