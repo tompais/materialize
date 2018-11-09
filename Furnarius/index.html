@@ -37,7 +37,7 @@
   <div class="navbar-fixed">
     <nav class="nav-extended z-depth-4">
       <div class="nav-wrapper brown darken-2">
-        <a href="index.html" class="brand-logo left"><img src="imagenes/Logo.svg"></a>
+        <a href="index.html" class="brand-logo left"><img src="img/Logo.svg"></a>
         <ul id="nav-mobile" class="right">
           <li><a class="dropdown-trigger" href="#!" data-target="dropdownjuego">Seleccione un Juego<i class="material-icons right">arrow_drop_down</i></a></li>
           <li class="hide-on-med-only hide-on-small-only"><a href="#">Sinopsis</a></li>
@@ -50,17 +50,16 @@
   </div>
   <div class="">
     <div class="section transparent">
-      <div class="row container">
-        <h1 class="center-align black-text header furnarius">Furnarius</h1>
-        <h5 class="center-align header juegos-de-rol">Juegos de Rol</h5>
+      <div class="row container iso">
+        <img src="img/Isologo.png" alt="Furnarius - Juegos de Rol">
       </div>
       <div class="carousel-row-container z-depth-4">
         <div class="carousel carousel-slider">
-          <img class="carousel-item" src="imagenes/epocasdeconquista.jpg">
-          <img class="carousel-item" src="imagenes/colonizacionportuguesa.jpg">
-          <img class="carousel-item" src="imagenes/hispanidad.jpg">
-          <img class="carousel-item" src="imagenes/virreynato.jpg">
-          <img class="carousel-item" src="imagenes/colonizacionanglosajona.jpg">
+          <img class="carousel-item" src="img/epocasdeconquista.jpg">
+          <img class="carousel-item" src="img/colonizacionportuguesa.jpg">
+          <img class="carousel-item" src="img/hispanidad.jpg">
+          <img class="carousel-item" src="img/virreynato.jpg">
+          <img class="carousel-item" src="img/colonizacionanglosajona.jpg">
         </div>
       </div>
     </div>
@@ -69,54 +68,77 @@
 
 
     <div>
-        <a class="waves-effect waves-light btn modal-trigger orange lighten-1" id="shopCart" href="#modal1"><i class="material-icons left">shopping_cart</i>Comprar</a>
-      <div id="modal1" class="modal">
+      <div id="shopCart">
+        <a class="waves-effect waves-light btn modal-trigger orange lighten-1" href="#modal1"><i class="large material-icons">shopping_cart</i></a>
+        <span class="center-align">Comprar</span>
+      </div>
+      <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
-          <h4>Proceso de compra</h4>
-
-          <div class="row">
-            <form class="col s12">
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="nombre" type="text" class="validate">
-                  <label for="nombre">Nombre</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="ape" type="text" class="validate">
-                  <label for="ape">Apellido</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="tarjeta" type="text" class="validate">
-                  <label for="tarjeta">Tarjeta</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="dni" type="text" class="validate">
-                  <label for="dni">DNI</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="fnac" type="date" class="validate">
-                  <label for="fnac">Fecha de nacimiento</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Email</label>
-                </div>
-              </div>
-              <p>Precio :$500</p>
-            </form>
+          <div class="modal-header">
+            <h4>Proceso de compra</h4>
+            <a href="#!" class="modal-action modal-close waves-effect waves-red nounderline">
+              <h6><i class="material-icons">close</i></h6>
+            </a>
           </div>
-
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s4">
+                <input id="dni" type="text" class="validate">
+                <label for="dni">DNI</label>
+              </div>
+              <div class="input-field col s4">
+                <input id="fnac" type="date" class="validate">
+                <label for="fnac">Fecha de nacimiento</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s4">
+                <input id="nombre" type="text" class="validate">
+                <label for="nombre">Nombre</label>
+              </div>
+              <div class="input-field col s4">
+                <input id="ape" type="text" class="validate">
+                <label for="ape">Apellido</label>
+              </div>
+            </div>
+          </form>
         </div>
         <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close waves-effect waves-red btn brown darken-1">Finalizar compra</a>
+          <a href="#modal2" class="waves-effect waves-red btn brown darken-1 modal-trigger modal-close">Continuar<i
+              class="right material-icons">create</i></a>
+        </div>
+      </div>
+      <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Proceso de compra</h4>
+            <a href="#!" class="modal-action modal-close waves-effect waves-red nounderline">
+              <h6><i class="material-icons">close</i></h6>
+            </a>
+          </div>
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s4">
+                <input id="tarjeta" type="text" class="validate">
+                <label for="tarjeta">Tarjeta</label>
+              </div>
+              <div class="input-field col s2">
+                <input id="codSeguridad" type="text" class="validate">
+                <label for="codSeguridad">CVV/CVC</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <p>Precio :$500</p>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="#modal2" class="waves-effect waves-red btn brown darken-1 modal-trigger modal-close">Finalizar<i
+              class="right material-icons">check</i></a>
         </div>
       </div>
     </div>
@@ -133,10 +155,11 @@
         <div class="col s12 l10 offset-l1">
           <div class="card waves-effect waves-block waves-light z-depth-4">
             <div class="card-image">
-              <img src="imagenes/box.jpg">
+              <img src="img/box.jpg">
             </div>
             <div class="card-content brown darken-1 white-text">
-              <p>Contiene: Un libro de reglas, un tablero de juego, 15 miniaturas, 80 cartas, 50 hojas de personajes y 6 dados de doce caras</p>
+              <p>Contiene: Un libro de reglas, un tablero de juego, 15 miniaturas, 80 cartas, 50 hojas de personajes y
+                6 dados de doce caras</p>
             </div>
           </div>
         </div>
@@ -151,7 +174,7 @@
         <h1 class="center-align black-text header">Personajes</h1>
         <div class="card col s12 l4 offset-l1 brown darken-1 z-depth-4">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator imagencard" src="imagenes/Aborigen.jpg">
+            <img class="activator imagencard" src="img/Aborigen.jpg">
           </div>
           <div class="card-content center-align">
             <span class="card-title activator white-text">Aborigen<i class="material-icons right">more_vert</i></span>
@@ -171,7 +194,7 @@
 
         <div class="card col s12 l4 offset-l2 brown darken-1 z-depth-4">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator imagencard" src="imagenes/Conquistador.jpg">
+            <img class="activator imagencard" src="img/Conquistador.jpg">
           </div>
           <div class="card-content center-align">
             <span class="card-title activator white-text">Conquistador<i class="material-icons right">more_vert</i></span>
@@ -218,13 +241,13 @@
         </div>
         <div class="redes-sociales">
           <div>
-            <img src="imagenes/facebook.svg" class="red-social" alt="" width="20px" height="20px">
+            <a href="#"><img src="img/facebook.svg" class="red-social" alt="" width="20px" height="20px"></a>
           </div>
           <div>
-            <img src="imagenes/twitter.svg" class="red-social" alt="" width="20px" height="20px">
+            <a href="#"><img src="img/twitter.svg" class="red-social" alt="" width="20px" height="20px"></a>
           </div>
           <div>
-            <img src="imagenes/instagram.svg" class="red-social" alt="" width="20px" height="20px">
+            <a href="#"><img src="img/instagram.svg" class="red-social" alt="" width="20px" height="20px"></a>
           </div>
 
         </div>
@@ -242,7 +265,7 @@
         </div>
         <div class="row">
           <div class="input brown text-area lighten-5">
-            <textarea id="textarea1" placeholder="Deje su mensaje"  required class="materialize-textarea"></textarea>
+            <textarea id="textarea1" placeholder="Deje su mensaje" required class="materialize-textarea"></textarea>
           </div>
         </div>
         <div id="advertencia" style="display:none">Debe ingresar todos los campos para poder enviar!</div>
