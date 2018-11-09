@@ -2,12 +2,22 @@ var mensaje = $("#textarea1");
 var email = $("#email-msj");
 var nombre = $("#first_name");
 var regexEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
 $(document).ready(function () {
+
+    //inicializamos el dropdown
     $('.dropdown-trigger').dropdown();
+
+    //aplicamos parallax
     $('.parallax').parallax();
+
+    //invocamos el carousel
     setCarousel();
+
+    //activamos el modal
     $('.modal').modal();
 
+    //validaciones para el envío del formulario
     $("#enviar").click(function(){
         if(mensaje.val() == "" ||
         email.val() == "" ||
@@ -30,10 +40,6 @@ $(document).ready(function () {
         $("#correcto").css("display","block");
         setTimeout(function(){$("#correcto").css("display","none")},5000);
     });
-
-
-
-
 });
 
 
