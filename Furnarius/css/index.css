@@ -119,13 +119,16 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 
 .imagencard {
   width: 100px;
-  height: 400px;
+  height: 500px;
   margin-top: 10px;
 }
 
 .texto li{
   font-size: 20px;
   padding-bottom: 20px;
+}
+.texto{
+		font-size: 12px;
 }
 
 @media (max-width:1000px){
@@ -136,4 +139,26 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
     .carousel {
         height: 500px;
     }
+	h1{
+		font-size: 40px;
+	}
+	.iso img {
+    width: 100%;
+}
+}
+
+@media (max-width:500px){
+   .carousel {
+        height: 300px;
+    }
+	
+
+.imagencard {
+  width: 50px;
+  height: 300px;
+  margin-top: 10px;
+}
+.texto{
+	margin-bottom: 35px;
+}
 }
