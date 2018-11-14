@@ -74,7 +74,7 @@
       <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
           <div class="modal-header">
-            <h4>Proceso de compra</h4>
+            <h4>Paso 1: Datos personales</h4>
             <a href="#!" class="modal-action modal-close waves-effect waves-red nounderline">
               <h6><i class="material-icons">close</i></h6>
             </a>
@@ -110,7 +110,7 @@
       <div id="modal2" class="modal modal-fixed-footer">
         <div class="modal-content">
           <div class="modal-header">
-            <h4>Proceso de compra</h4>
+            <h4>Paso 2: Tarjeta</h4>
             <a href="#!" class="modal-action modal-close waves-effect waves-red nounderline">
               <h6><i class="material-icons">close</i></h6>
             </a>
@@ -151,8 +151,21 @@
 
     <!--Eze-->
 
-    <div class="container">
-        <h1 class="center-align black-text header">Componentes</h1>
+    <div class="container" id="tarjeta1">
+        <h2 class="center-align black-text header">Componentes</h2>
+          <div class="card horizontal waves-effect waves-block waves-light z-depth-4 imagencomp">
+            <div class="card-image">
+              <img src="img/box.jpg" class="icomponentes">
+            </div>
+            <div class="card-content brown darken-1 white-text">
+              <p>Contiene: Un libro de reglas, un tablero de juego, 15 miniaturas, 80 cartas, 50 hojas de personajes y
+                6 dados de doce caras</p>
+            </div>
+          </div>
+    </div>
+
+    <div class="container" id="tarjeta2">
+        <h2 class="center-align black-text header">Componentes</h2>
         <div class="col s12 l10 offset-l1">
           <div class="card waves-effect waves-block waves-light z-depth-4">
             <div class="card-image">
@@ -165,14 +178,15 @@
           </div>
         </div>
     </div>
+
     <br>
     <br>
     <br>
     <br>
     <div class="container">
       <div class="row">
-        <h1 class="center-align black-text header">Personajes</h1>
-        <div class="card col s12 l3 offset-l1 brown darken-1 z-depth-4">
+        <h2 class="center-align black-text header">Personajes</h2>
+        <div class="card col s12 l3 offset-l2 brown darken-1 z-depth-4">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator imagencard" src="img/Aborigen.jpg">
           </div>
@@ -229,7 +243,7 @@
     <div class="row contenedorFooter">
       <div class="col columna1 l3 s12">
         <div class="titulo-datos">Nosotros</div>
-        <div class="texto">Somos una empresa dedicada al desarrollo de juegos de rol de carácter de nacional y autóctono con una vasta experiencia en el mercado</div>
+        <div class="texto">Somos una empresa dedicada al desarrollo de juegos de rol de carácter nacional y autóctono con una vasta experiencia en el mercado</div>
       </div>
       <div class="col columna2 l3 s12">
         <div class="titulo-datos">Contacto</div>
@@ -279,7 +293,7 @@
       </form>
     </div>
 
-    
+
   </footer>
 
   <script src="lib/jquery-3.3.1/jquery-3.3.1.min.js"></script>

@@ -7,6 +7,10 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
     text-decoration: none;
 }
 
+#tarjeta2{
+  display: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -30,11 +34,11 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 }
 
 .iso img {
-    width: 50%;
+    width: 55%;
 }
 
 .carousel {
-    height: 700px;
+    height: 500px;
 }
 
 #shopCart{
@@ -117,16 +121,32 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
     width: 60px;
 }
 #logo{
-    margin-left: 8px;
+    margin-left: 10px;
 }
+
+.card.horizontal .card-image {
+    max-width: 90%;
+}
+
+.imagencomp{
+  width: 75%;
+}
+
+.icomponentes{
+  height: 320px;
+}
+
+.card-content{
+  width: 30%;
+}
+
 .imagencard {
-  width: 50px;
-  height: 300px;
+  height: 50%;
   margin-top: 10px;
 }
 
 .texto li{
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 20px;
 }
 .texto{
@@ -147,13 +167,21 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 	.iso img {
     width: 100%;
 }
+
+.icomponentes{
+  height: 220px;
+}
+
+.card-content{
+  width: 35%;
+}
 }
 
 @media (max-width:500px){
    .carousel {
         height: 300px;
     }
-	
+
 
 .imagencard {
   width: 50px;
@@ -162,5 +190,17 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 }
 .texto{
 	margin-bottom: 35px;
+}
+
+#tarjeta1{
+  display: none;
+}
+
+#tarjeta2{
+  display: block;
+}
+
+.card-content{
+  width: 100%;
 }
 }

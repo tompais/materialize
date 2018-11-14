@@ -19,7 +19,7 @@
         display: flex;
         align-items: center;
     }
-    
+
 }
 @media (max-width:1000px){
     .ultimaCol{
@@ -40,7 +40,7 @@
     .text-area{
         width: 100%;
     }
-    
+
 }
 
 
