@@ -6,4 +6,4 @@ brown lighten-4
 brown lighten-2
 brown lighten-1
 
-validar pasos de compra, ajustar personajes a la pantalla
+validar pasos de compra, ajustar personajes a la pantalla, alinear iconos en footer en modo responsive
