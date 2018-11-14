@@ -19,7 +19,9 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
     margin: 0px auto;
     width: 90%;
 }
-
+.pj{
+    margin: 15px auto;
+}
 ::placeholder{
     color: #212121;
 }
@@ -91,6 +93,9 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 .input-field input {
     border-bottom: 1px solid #9e9e9e !important;
 }
+.imagencomp .card-content{
+    width: 40%;
+}
 
 .modal-footer a i {
     padding-right: 0;
@@ -129,19 +134,28 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 }
 
 .imagencomp{
-  width: 75%;
+  width: 70%;
+
 }
 
 .icomponentes{
   height: 320px;
 }
-
-.card-content{
-  width: 30%;
+.titulocarta{
+    font-size: 10px;
 }
-
+.card-content{
+  width: 100%;
+}
+.card .card-content{
+    padding: 5px;
+    margin-left: auto;
+}
+.card .card-image{
+    margin-bottom: 15px;
+}
 .imagencard {
-  height: 50%;
+  height: 325px;
   margin-top: 10px;
 }
 
@@ -203,4 +217,10 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 .card-content{
   width: 100%;
 }
+.pjs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 }
