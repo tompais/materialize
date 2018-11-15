@@ -41,9 +41,9 @@
         <ul id="nav-mobile" class="right">
           <li><a class="dropdown-trigger" href="#!" data-target="dropdownjuego">Seleccione un Juego<i class="material-icons right">arrow_drop_down</i></a></li>
           <li class="hide-on-med-only hide-on-small-only"><a href="#">Sinopsis</a></li>
-          <li class="hide-on-med-only hide-on-small-only"><a href="#">Componentes</a></li>
-          <li class="hide-on-med-only hide-on-small-only"><a href="#">Personajes</a></li>
-          <li class="hide-on-med-only hide-on-small-only"><a href="#">Contacto</a></li>
+          <li class="hide-on-med-only hide-on-small-only"><a href="#componentes">Componentes</a></li>
+          <li class="hide-on-med-only hide-on-small-only"><a href="#personajes">Personajes</a></li>
+          <li class="hide-on-med-only hide-on-small-only"><a href="#contacto">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -51,7 +51,7 @@
   <div class="">
     <div class="section transparent">
       <div class="row container iso">
-        <img src="img/Isologo.png" alt="Furnarius - Juegos de Rol">
+        <a href="index.html"><img src="img/Isologo.png" alt="Furnarius - Juegos de Rol"></a>
       </div>
       <div class="carousel-row-container z-depth-4">
         <div class="carousel carousel-slider">
@@ -136,35 +136,54 @@
           </form>
         </div>
         <div class="modal-footer">
-          <a href="#!" class="waves-effect waves-red btn brown darken-1 modal-action modal-close">Finalizar<i
-              class="right material-icons">check</i></a>
+          <a href="#!" class="waves-effect waves-red btn brown darken-1 modal-action modal-close">Finalizar<i class="right material-icons">check</i></a>
         </div>
       </div>
     </div>
 
-	<br>
-  <br>
-  <br>
-  <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <div>
+        <h2 class="center-align black-text header">Sinopsis</h2>
+        <div class="parallax-container">
+            <div class="parallax">
+              <img src="img/tomatenochtitlan.jpg" alt="Épocas de Conquista">
+            </div>
+          </div>
+              <h5 class="center-align descripcion-sinopsis brown darken-1 white-text">
+                Adéntrate en una apasionante aventura en la que tendrás que ponerte en la piel de 
+                aquellos que desean reclamar lo que creen que les pertenece, o en la que defienden 
+                las tierras en las que nacieron con su propia vida. Tendrás que usar todas tus 
+                habilidades de supervivencia para fabricar grandes armas, establecer
+                puntos estratégicos, y dar rienda suelta a tu imaginacion, donde cada acción que tomes
+                , decidirá tu destino en esta gran época de conquista.
+                </h6>          
+    </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
 
     <!--Eze-->
 
-    <div class="container" id="tarjeta1">
-        <h2 class="center-align black-text header">Componentes</h2>
-          <div class="card horizontal waves-effect waves-block waves-light z-depth-4 imagencomp">
-            <div class="card-image">
-              <img src="img/box.jpg" class="icomponentes">
-            </div>
-            <div class="card-content brown darken-1 white-text">
-              <p>Contiene: Un libro de reglas, un tablero de juego, 15 miniaturas, 80 cartas, 50 hojas de personajes y
-                6 dados de doce caras</p>
-            </div>
-          </div>
+    <div class="container" id="componentes">
+      <h2 class="center-align black-text header">Componentes</h2>
+      <div class="card waves-effect waves-block waves-light z-depth-4 imagencomp">
+        <div class="card-image">
+          <img src="img/box.jpg" class="icomponentes">
+        </div>
+        <div class="card-content brown darken-1 white-text">
+          <p>Contiene: Un libro de reglas, un tablero de juego, 15 miniaturas, 80 cartas, 50 hojas de personajes y
+            6 dados de doce caras</p>
+        </div>
+      </div>
     </div>
 
-    <div class="" id="tarjeta2">
+    <!-- <div class="" id="tarjeta2">
         <h2 class="center-align black-text header">Componentes</h2>
         <div class="col s12 l8 offset-l1">
           <div class="card comp waves-effect waves-block waves-light z-depth-4">
@@ -177,13 +196,13 @@
             </div>
           </div>
         </div>
-    </div>
+    </div> -->
 
     <br>
     <br>
     <br>
     <br>
-    <div class="container">
+    <div class="container" id="personajes">
       <div class="row pjs">
         <h2 class="center-align black-text header">Personajes</h2>
         <div class="card col s10 l3 offset-l2 pj brown darken-1 z-depth-4">
@@ -239,11 +258,12 @@
 
   <!--Igna-->
 
-  <footer class="page-footer brown darken-2">
+  <footer class="page-footer brown darken-2" id="contacto">
     <div class="row contenedorFooter">
       <div class="col columna1 l3 s12">
         <div class="titulo-datos">Nosotros</div>
-        <div class="texto">Somos una empresa dedicada al desarrollo de juegos de rol de carácter nacional y autóctono con una vasta experiencia en el mercado</div>
+        <div class="texto">Somos una empresa dedicada al desarrollo de juegos de rol de carácter nacional y autóctono
+          con una vasta experiencia en el mercado</div>
       </div>
       <div class="col columna2 l3 s12">
         <div class="titulo-datos">Contacto</div>
