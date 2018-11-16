@@ -10,7 +10,11 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
 #tarjeta2{
   display: none;
 }
+#componentes{
+    font-size: 22px;
+    text-align: center;
 
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -195,6 +199,10 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
         line-height: 20pt;
         font-weight: 400;
     }
+    #componentes{
+        font-size: 13px;
+        text-align: center;
+    }
 
 	h1{
 		font-size: 40px;
@@ -244,4 +252,11 @@ a, a:hover, a.nounderline:link, a:link, a:hover {
     justify-content: center;
 }
 
+#componentes{
+    width: 100%;
+    margin: 0px;
+}
+.imagencomp{
+    width: 100%;
+}
 }
